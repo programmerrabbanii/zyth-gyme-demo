@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    max-width: 1150px;
+    margin: auto;
+}
+/* this is navabr section css here */
+
+.navMain{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 55px;
+    background-color: rgba(255, 255, 255, 0.453);
+    
+   
+    
+}
+
+.position{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    
+
+}
+
+.navLink ul{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.navLink ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+.navLink ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #090909;
+}
+
+.navLink ul li a:hover{
+    border-bottom: 3px solid #273272;
+}
+.navLink ul li:active{
+    color: #273272;
+}
+/* navbar section style end here */
+/* bannar section start here */
+.bannar{
+    background-image: url(./img/bannar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   
+
+}
+.position-button{
+   
+}
+.bannar-inner{
+    width: 1150px;
+    margin: auto;
+}
+.bannar-inner h4{
+    font-size: 30px;
+}
+.bannar-inner h2{
+    font-size: 66px;
+    color: #273272;
+}
+.bannar-inner button a{
+    border: none;
+}
+.bannar-inner button{
+    background-color: #273272;
+    color: white;
+    border: none;
+    
+    padding: 20px 35px;
+
+}
