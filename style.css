@@ -90,3 +90,54 @@ main{
     padding: 20px 35px;
 
 }
+/* bannar section end here */
+/* about section start here */
+.about{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.about-left{}
+
+.about-rights h5{
+    color: red;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+}
+.about-rights h2{
+    color: #273272;
+    font-size: 66px;
+    margin-bottom: 15px;
+}
+.about-rights h3{
+    margin-bottom: 11px;
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer;
+}
+h3:hover{
+    color: orange;
+    
+}
+.about-rights p{
+    margin-bottom: 11px;
+}
+.about-rights button{
+    border: none;
+    background-color: #273272;
+    color: white;
+    text-transform: capitalize;
+    padding: 13px 25px;
+    font-size: 17px;
+}
+
+
+.about-rights button:hover{
+    background-color: red;
+    
+}
+
+
