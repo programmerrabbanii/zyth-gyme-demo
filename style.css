@@ -19,7 +19,7 @@ main{
 }
 
 .position{
-    position: fixed;
+    position: sticky;
     top: 0px;
     left: 0px;
     bottom: 0px;
@@ -118,10 +118,7 @@ main{
     font-weight: 300;
     cursor: pointer;
 }
-h3:hover{
-    color: orange;
-    
-}
+
 .about-rights p{
     margin-bottom: 11px;
 }
