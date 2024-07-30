@@ -99,7 +99,7 @@ main{
     align-items: center;
     gap: 50px;
 }
-.about-left{}
+
 
 .about-rights h5{
     color: red;
@@ -142,5 +142,48 @@ main{
     display: flex;
     justify-content: space-between;
 }
+/* about section end here */
+/* maintain section start here */
+.maintain{
+    margin-top: 66px;
+}
+.maintain-top-title{}
+.maintain-top-title h5{
+    color: red;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.maintain-inner-box{
+    padding: 33px;
+}
+.maintain-top-title h3{
+    color: #273272;
+    font-size: 55px;
+    margin-bottom: 54px;
+}
+.maintain-box{ 
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.maintain-inner-box img{
+    margin-bottom: 5px;
+}
 
+.maintain-inner-box h4{
+    color: #273272;
+    font-size: 30px;
+    line-height: 51px;
+   
+
+}
+.maintain-inner-box p{
+    color: #273272;
+    font-size: 20px;
+}
+.different-style{
+    padding: 33px;
+    box-shadow: 2px 3px 2px 3px rgb(211, 207, 207);
+}
 
