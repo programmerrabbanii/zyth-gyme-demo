@@ -65,9 +65,7 @@ main{
    
 
 }
-.position-button{
-   
-}
+
 .bannar-inner{
     width: 1150px;
     margin: auto;
@@ -147,7 +145,7 @@ main{
 .maintain{
     margin-top: 66px;
 }
-.maintain-top-title{}
+
 .maintain-top-title h5{
     color: red;
     font-size: 16px;
@@ -186,4 +184,59 @@ main{
     padding: 33px;
     box-shadow: 2px 3px 2px 3px rgb(211, 207, 207);
 }
+/* maintain section end here */
+/* services sectin start here */
 
+.services{
+    margin-top: 77px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    
+}
+.services-rights-main{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 25px;
+}
+
+.services-left h2{
+    font-size: 55px;
+    color: #273272;
+    line-height: 60px;
+    margin-bottom: 17px;
+}
+.services-left p{
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 14px;
+
+}
+.services-left button{
+    border: none;
+    background: #273272;
+    color: white;
+    padding: 16px 27px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.services-left button:hover{
+    background-color: red;
+}
+.services-left h5{
+    color: red;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.services-inner-box{
+    margin-top: 25px;
+}
+.services-inner-box h4{
+    color: #273272;
+    font-size: 24px;
+    line-height: 44px;
+}
