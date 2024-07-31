@@ -287,3 +287,78 @@ main{
     color: #433f3f;
     font-weight: 300;
 }
+/* solution section end here */
+/* planning sectin start here */
+.planning{
+    margin-top: 77px;
+    display: flex;
+    justify-content:space-between;
+  
+    background-image: linear-gradient(rgba(7, 2, 34, 0.786), rgba(119, 0, 255, 0.742)) , url(./img/corporate-blog-01.jpg); 
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    padding: 100px;
+    color: white;
+
+   
+
+}
+.planning-left{
+    text-align: center;
+}
+
+.planning-left h4{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.planning-left h2{
+    font-size: 45px;
+}
+.planning-rights h2{
+    font-size: 50px;
+    margin-bottom: 22px;
+}
+.planning-rights button{
+    text-align: center;
+    background: red;
+    border: none;
+    color: white;
+    padding: 14px 26px;
+
+}
+/* planning section end here */
+/* improve section start here */
+.clients-review{
+    margin-top: 77px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+
+}
+.clients-review-inner h3{
+    font-weight: 300;
+    line-height: 55px;
+}
+.clients-review-inner h2{
+    color: #273272;
+    font-size: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.clients-review-inner h2:hover{
+    color: red;
+
+}
+/* improve section end here */
+/* footer section start here */
+.footer-main{
+    text-align: center;
+    padding: 50px;
+    background-color: #273272;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
